@@ -1,0 +1,55 @@
+body {
+	margin: 0;
+	padding: 0;
+    background: black;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    
+}
+
+a, a:link, a:visited {
+    text-decoration: none;
+}
+
+
+
+img {
+    border: none;
+    width: 100vw;
+    height: auto;
+}
+
+header {
+    position: fixed;
+    color: #fff;
+    top: 0;
+    left: 0;
+    height: 5vh;
+    width: 100%;
+}
+
+header h1 {
+    position: absolute;
+    left: 0px;
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+    padding-left: 1vw;
+    padding-top: 1vh;
+}
+
+header nav {
+    position: absolute;
+    right: 0px;
+    padding-right: 1vw;
+}
+
+header nav ul {
+    list-style: none;
+    font-size: 80%;
+}
+
+header nav ul a {
+    text-decoration: none;
+    color: #fff;
+}
+
