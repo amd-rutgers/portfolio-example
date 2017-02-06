@@ -1,0 +1,88 @@
+body {
+	margin: 0;
+	padding: 0;
+    background: black;
+    font-family: 'Overpass', 'Arial', sans-serif;
+}
+
+a, a:link, a:visited {
+    text-decoration: none;
+}
+
+
+
+img {
+    border: none;
+/*
+    width: 100vw;
+    height: auto;
+*/
+    display: block;
+}
+
+header {
+    position: fixed;
+    color: #fff;
+    top: 0;
+    left: 0;
+    height: 5vh;
+    width: 100%;
+}
+
+main {
+    margin-top: 5vh;
+}
+
+header h1 {
+    position: absolute;
+    left: 0px;
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+    padding-left: 1vw;
+    padding-top: 1vh;
+}
+
+header h1 a {
+    color: #fff;
+}
+
+header nav {
+    position: absolute;
+    right: 0px;
+    padding-right: 1vw;
+}
+
+header nav ul {
+    list-style: none;
+    font-size: 80%;
+}
+
+header nav ul a {
+    text-decoration: none;
+    color: #fff;
+}
+
+body#home {
+    background-color: red;
+    background-image: url(images/agri-walkerartcenter.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+}
+
+
+body#portfolio main a {
+    display: block;
+    float: left;
+    margin: 2vmin;
+}
+
+
+.about-text {
+    font-family: 'Antic Slab', serif;
+    color: yellow;
+    font-size: 6vmin;
+    padding: 0 10vw;
+}
